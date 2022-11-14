@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name = viewport content="width-device=width user-scalable:no">
+    <meta name="description" content="Web oficial de Estheban Heredia: Desarrollador, barista, speedcuber y periodista.">
+    <meta name="author" content="Estheban Heredia">
+    <meta name="keywords" content="Estheban, Heredia, Estheban Heredia, Desarrollador, crear paginas web, developer, create web pages, barista, speedcuber, periodista, journalist, Estheban, Oscar, David, Heredia, Mogollon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Flex:opsz,wght@8..144,200&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <title>Estheban Heredia</title>
+  </head>
+  <body>
+    <header>
+      <div id='encabezado' class="container-fluid text-white text-center">
+        <div class="row col-12">
+        <div id='encabezadoPrincipal' class="offset-0 offset-sm-0 offset-md-4 offset-lg-4 col-12 col-sm-12 col-md-4 col-lg-4">
+          <img id='encabezadoFoto' class="mt-3" src="./img/foto-perfil.webp">
+          <h5 id="encabezadoTitulo">Estheban Heredia</h5>
+          <h6 id="encabezadoSubtitulo">Desarrollador Web Front-End</h6>
+        </div>
+        </div>
+      </div> 
+    </header>
+    <article>
+      <div class="container-fluid bg-white pt-2" id="article">
+        <div class="row"> 
+          <div id='article-text' class="col-12">
+          <h2 id="articuloTitulo">Hola !</h2>
+          <h6 id="articuloSubtitulo">Sientete como en casa, abajo veras enlaces a mis redes sociales, información de contacto, proyectos pasados y mi curriculum.</h6>
+          </div>
+        </div>
+      </div>
+    </article>
+    <main>
+      <div class="container-fluid text-black mt-5 icons">
+        <div class="row">
+          <div class="col-4 col-sm-4 col-md-4 col-lg-2 mt-3 text-center icon">
+            <a class='actual-icon' id='linkedin-icon' href="https://www.linkedin.com/in/esthebanheredia/" target="_blank"><i class='fa-brands fa-linkedin'></i></a>
+          </div>
+          <div class="col-4 col-sm-4 col-md-4 col-lg-2 mt-3 text-center icon">
+            <a class='actual-icon' id="instagram-icon" href="https://www.instagram.com/estheban.heredia/" target="_blank"><i class='fa-brands fa-instagram'></i></a>
+          </div>
+          <div class="col-4 col-sm-4 col-md-4 col-lg-2 mt-3 text-center icon">
+            <a class='actual-icon' id="twitter-icon" href="https://twitter.com/EsthebanHeredia" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <div class="col-4 col-sm-4 col-md-4 col-lg-2 mt-3 text-center icon">
+            <a type='button' class='actual-icon' id="past-icon" href="proyectos.html"><i class="fa-solid fa-clock-rotate-left"></i></a>
+          </div>
+          <div class="col-4 col-sm-4 col-md-4 col-lg-2 mt-3 text-center icon">
+            <a type="button" data-toggle="modal" data-target="#contact" class='actual-icon' id="contact-icon"><i class="fa-solid fa-user"></i></a>
+          </div>
+          <div class="col-4 col-sm-4 col-md-4 col-lg-2 mt-3 text-center icon">
+            <a type='button' data-toggle='modal' data-target="#resume" class="actual-icon" id="resume-icon"><i class='fa-solid fa-file'></i></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="modalSection">
+      <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contactModalLabel">Contacto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body"><p class="text-center">Aquí abajo encontrarás mi correo</p><p class="text-center">#noSpam 😉</p></div>
+            <div class="modal-footer">
+                <a class='btn-block' href='mailto:esthebanheredia15@hotmail.com'><button type="button" class="btn btn-primary btn-lg btn-block">CORREO</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="resume" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="resumeModalLabel">Escoge el idioma</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hideen="true">&times;</span>
+              </button>
+            </div>
+            <div class="text-center p-3">
+              <h4><a href='resumeES.html'>Español 🇬🇹</a></h4>
+              <br/>
+              <h4><a href='resumeENG.html'>English 🇺🇸</a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <article>
+      <div class="container-fluid text-white">
+        <div class="row">
+          <div id='articulo1' class="articulos offset-1 offset-lg-0 col-10 col-lg-5 mx-lg-5 mt-lg-5 mb-lg-5">
+            <p class="tituloArticulo">Llevalo al siguiente nivel</p>
+            <p class="contenidoArticulo">Tienes alguna idea innovadora ? O quizá ya tienes una empresa funcionando y quieres renovarla. Sí es así contáctame usando mi correo que verás en el botón de contacto, y hagamos que tus redes sociales, tu logo y tu web luzcan geniales. Además podrás tener un dominio y correo personalizado !
+              <br/>¿Qué estás esperando? ¡La era digital esta aquí!
+            </p>
+            <p class="cierreArticulo">Hagamos cosas geniales !</p>
+          </div>
+          <div id="articulo2" class="articulos offset-1 offset-lg-0 col-10 col-lg-5 mx-lg-5 mt-lg-5 mb-5">
+            <p class="tituloArticulo">Hola, influencer</p>
+            <p class="contenidoArticulo">Conecta tus redes sociales a travez de un sitio que contenga los enlaces a todas ellas para que tus seguidores puedan ver tu contenido en cualquier plataforma.
+              <br/>Basta del @gmail, un profesional necesita un correo así: <strong>contacto@tunombre.com</strong>
+              <br/>¿Te imaginas enviar tu CV por un link, sin imprimirlo, sin enviar un archivo de word, simplemente un link ? Wow.
+              <br/>Pulsa en el botoncito amarillo, comparteme tus idea y lleva tu impacto digital al siguiente nivel. 
+              <br/>Bienvenido al futuro.
+            </p>
+            <p class="cierreArticulo">Revolucionemos el mundo juntos</p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer class="text-center border-top border-dark">
+      Diseñado por Estheban Heredia en Guatemala.
+      <br/>Version 2.0.4
+      <br/>Me encantaría que respondieras esta <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHgw1xwncvfn8ISrs1t58_4UMHOqYVak7vbLh5hXXeW0YhtA/viewform?usp=sf_link">encuesta</a> para evaluar el rendimiento de esta web.        
+      <br/>An Original Studios Production.
+      <br/>October 2022, All rights Reserved.
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/952a97a778.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

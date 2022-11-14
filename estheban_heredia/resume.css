@@ -1,0 +1,24 @@
+#personalInfo{
+    background: rgb(241, 237, 237);
+}
+#restoInfo{
+    background: white;
+}
+#cvFoto{
+    height: 8em; 
+    border-radius: 50%;
+    border: 2px solid gainsboro; 
+}
+#nacionalidadPersonal{
+    font-size: normal;
+}
+ul.list-unlysted{
+    list-style-type: none;  
+}
+.primarioLista{
+    color:green;
+    font-weight:bold;
+}
+.secundarioLista{
+    font-weight:bold;
+}
